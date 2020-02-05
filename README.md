@@ -2,15 +2,15 @@
 A discord bot that can perform some mathematical functions.
 
 The bot can do simple arithmetic:
-![](arith.png)
+![](images/arith.png)
 
 Graph functions based on an equation:
-![](graphex.png)
+![](images/graphex.png)
 
 Graph functions over a certain region:
-![](bound.png)
+![](images/bound.png)
 
 Count the number of messages that contain a specified word:
-![](words.png)
+![](images/words.png)
 
 
