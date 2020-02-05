@@ -75,8 +75,8 @@ async def graph(ctx, graph: str):
 	plt.xlim(-10, 10)
 	plt.ylim(-10, 10)
 
-	plt.savefig("graph.png")
-	await ctx.send(file=discord.File("graph.png"))
+	plt.savefig("images/graph.png")
+	await ctx.send(file=discord.File("images/graph.png"))
 	plt.close()
 
 # graphs equation with upper and lower limit
@@ -98,8 +98,8 @@ async def boundGraph(ctx, graph: str, lowLim: float, upLim: float):
 
 	plt.xlim(lowLim,upLim)
 
-	plt.savefig('graph1.png')
-	await ctx.send(file=discord.File('graph1.png'))
+	plt.savefig('images/graph1.png')
+	await ctx.send(file=discord.File('images/graph1.png'))
 	plt.close()
 
 # counts the number of messages that contains a specific word 
